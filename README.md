@@ -2,11 +2,9 @@
 
 **Universidad Tecnológica de Pereira (UTP)**  
 **Facultad de Ingenierías**  
-**Ingeniería de Sistemas y Computación**  
+**Ingeniería de Sistemas y Computación**
 
----
-
-## Descripción del Repositorio
+## 📌 Descripción del Repositorio
 
 Este repositorio contiene las soluciones, talleres prácticos, proyectos y ejercicios de laboratorio desarrollados a lo largo del curso de **Programación III**. El propósito del espacio es documentar de forma estructurada el aprendizaje y dominio de paradigmas de programación no imperativos y avanzados, tales como:
 
@@ -14,26 +12,25 @@ Este repositorio contiene las soluciones, talleres prácticos, proyectos y ejerc
 * **Paradigma Lógico:** Modelado declarativo de bases de conocimiento, lógica de predicados de primer orden, cláusulas de Horn, resolución y unificación (e.g., SWI-Prolog).
 * **Diseño e Implementación de Lenguajes:** Intérpretes, sintaxis abstracta (AST) y sistemas de tipos si aplican durante el semestre.
 
----
-
-## Estructura General del Proyecto
+## 📂 Estructura General del Proyecto
 
 El código está organizado en carpetas modulares por taller o entrega temática para garantizar mantenibilidad y claridad:
 
-```text
+```
 .
 ├── README.md               # Documentación general del repositorio (este archivo)
-└── Taller I/               # Taller 1: Introducción a la Programación Lógica (Prolog)
-    ├── README.md           # Documentación y justificación lógica del Taller 1
-    ├── familia_simpson.pl  # Modelado genealógico (Hechos vs. Reglas de inferencia)
-    └── crimen.pl           # Deducción formal y Cláusulas de Horn (Caso Col. West)
+├── Taller I/               # Taller 1: Introducción a la Programación Lógica (Prolog)
+│   ├── README.md           # Documentación y justificación lógica del Taller 1
+│   ├── familia_simpson.pl  # Modelado genealógico (Hechos vs. Reglas de inferencia)
+│   └── crimen.pl           # Deducción formal y Cláusulas de Horn (Caso Col. West)
+└── Taller II/              # Taller 2: Grafos Dirigidos y Backtracking
+    ├── README.md           # Documentación teórica, SLD y justificación de consultas
+    └── grafos.pl           # Modelado de grafo ponderado, rutas y prevención de ciclos
 ```
 
-*(A medida que avance el semestre, se irán integrando las siguientes entregas y proyectos en carpetas consecutivas: `Taller II`, `Taller III`, `Proyecto Final`, etc.)*
+*(A medida que avance el semestre, se irán integrando las siguientes entregas y proyectos en carpetas consecutivas: `Taller III`, `Proyecto Final`, etc.)*
 
----
-
-## Tecnologías y Requisitos
+## 🛠️ Tecnologías y Requisitos
 
 Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere:
 
@@ -42,9 +39,7 @@ Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere
 * **Racket / DrRacket:** Entorno y compilador para las prácticas de programación funcional.
 * **Visual Studio Code:** Editor principal recomendado junto con las extensiones de *Prolog* (por Arthur Wang) y extensiones de resaltado sintáctico funcional.
 
----
-
-## Guía Rápida de Clonación y Uso
+## 🚀 Guía Rápida de Clonación y Uso
 
 1. **Clonar el repositorio:**
    ```bash
@@ -52,10 +47,10 @@ Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere
    cd ProgIII-G1
    ```
 
-2. **Ejecutar un taller específico (ejemplo Taller 1 en Prolog):**
+2. **Ejecutar un taller específico (ejemplo Taller 2 en Prolog):**
    ```bash
-   cd "Taller I"
-   swipl familia_simpson.pl
+   cd "Taller II"
+   swipl grafos.pl
    ```
 
 3. **Consultas en consola interactiva:**
@@ -64,21 +59,14 @@ Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere
    ?- halt.
    ```
 
----
-
-## Registro de Entregas y Talleres
+## 📋 Registro de Entregas y Talleres
 
 | Módulo / Taller | Paradigma / Lenguaje | Temas Principales | Estado |
 | :--- | :--- | :--- | :---: |
 | **Taller I** | Lógico (SWI-Prolog) | Hechos, reglas, backtracking, unificación, Cláusulas de Horn | ✅ Completado |
-| **Taller II** | *Por definir* | *Próxima entrega* | ⏳ Pendiente |
+| **Taller II** | Lógico (SWI-Prolog) | Grafos dirigidos ponderados, acumulación de costos, ciclos, resolución SLD | ✅ Completado |
 | **Taller III** | *Por definir* | *Próxima entrega* | ⏳ Pendiente |
 
----
+## 👤 Autor
 
-## Autor
-
-* **Santiago Osorio Aramburo** – Estudiante de Ingeniería de Sistemas y Computación, Universidad Tecnológica de Pereira.
-* Trabajo en conjunto con:
- **Jimena Betancur Garcia**, 
- **Mateo Bedoya Toro**
+* **Santiago** – Estudiante de Ingeniería de Sistemas y Computación, Universidad Tecnológica de Pereira.
