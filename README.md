@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Descripción del Repositorio
+## Descripción del Repositorio
 
 Este repositorio contiene las soluciones, talleres prácticos, proyectos y ejercicios de laboratorio desarrollados a lo largo del curso de **Programación III**. El propósito del espacio es documentar de forma estructurada el aprendizaje y dominio de paradigmas de programación no imperativos y avanzados, tales como:
 
@@ -16,7 +16,7 @@ Este repositorio contiene las soluciones, talleres prácticos, proyectos y ejerc
 
 ---
 
-## 📂 Estructura General del Proyecto
+## Estructura General del Proyecto
 
 El código está organizado en carpetas modulares por taller o entrega temática para garantizar mantenibilidad y claridad:
 
@@ -33,7 +33,7 @@ El código está organizado en carpetas modulares por taller o entrega temática
 
 ---
 
-## 🛠️ Tecnologías y Requisitos
+## Tecnologías y Requisitos
 
 Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere:
 
@@ -44,7 +44,7 @@ Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere
 
 ---
 
-## 🚀 Guía Rápida de Clonación y Uso
+## Guía Rápida de Clonación y Uso
 
 1. **Clonar el repositorio:**
    ```bash
@@ -66,7 +66,7 @@ Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere
 
 ---
 
-## 📋 Registro de Entregas y Talleres
+## Registro de Entregas y Talleres
 
 | Módulo / Taller | Paradigma / Lenguaje | Temas Principales | Estado |
 | :--- | :--- | :--- | :---: |
@@ -76,6 +76,9 @@ Para clonar, ejecutar y verificar las prácticas de este repositorio se requiere
 
 ---
 
-## 👤 Autor
+## Autor
 
-* **Santiago** – Estudiante de Ingeniería de Sistemas y Computación, Universidad Tecnológica de Pereira.
+* **Santiago Osorio Aramburo** – Estudiante de Ingeniería de Sistemas y Computación, Universidad Tecnológica de Pereira.
+* Trabajo en conjunto con:
+ **Jimena Betancur Garcia**, 
+ **Mateo Bedoya Toro**
